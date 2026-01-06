@@ -1,20 +1,50 @@
-<<<<<<< HEAD
-# React + Vite
+# Job Listing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Job Listing Application** built using **React** and **Vite**.  
+This project displays multiple job cards dynamically with reusable components, providing a clean and responsive user interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Reusable Job Cards**: Each card shows company logo, job title, pay, location, job type, and experience level.
+- **Dynamic Listing**: Jobs are displayed from an array of objects, making it easy to scale.
+- **Responsive Design**: Works on mobile and desktop screens.
+- **Modern UI**: Clean layout with interactive buttons for "Apply" and "Save".
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React
+- **Bundler**: Vite
+- **Styling**: CSS
+- **Icons**: Lucide-React
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# job-listing-app
->>>>>>> 82606af7848f0f4b3f03d8189f558e476d57b91d
+src/
+├── components/
+│ └── Deck.jsx
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+public/
+.gitignore
+package.json
+README.md
+
+## How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Archana-Lohana/job-listing-app
+## Install dependencies:
+npm install
+## Run the development server:
+npm run dev
+## Open in browser at:
+http://localhost:5173
+
+Author
+
+Archana Lohana
+GitHub: Archana-Lohana
+LinkedIn: (https://www.linkedin.com/in/archana-lohana-83b0b2399/)
